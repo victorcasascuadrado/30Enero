@@ -45,7 +45,7 @@ if st.button("Obtener Precio de Mercado"):
         with st.spinner("Consultando mercado europeo..."):
             try:
                 # El modelo correcto para la versión gratuita es gemini-1.5-flash
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-2.5-flash')
                 
                 # Preparar el contenido para el modelo
                 # Incluimos el prompt y luego las imágenes procesadas
