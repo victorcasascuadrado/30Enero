@@ -54,7 +54,7 @@ if st.button("Obtener Precio de Mercado"):
                 Analiza esta máquina basándote en: {datos_maquina}.
                 
                 TAREA:
-                1. Estima precios actuales basándote en portales europeos (Mascus, Agriaffaires, Traktorpool).
+                1. Estima precios actuales basándote en portales europeos (Mascus, Agriaffaires, Traktorpool).Devuelve una tabla con unos 10 modelos que encuentres en estas webs, ajustate si puedes a las horas de la maquina
                 2. Compara visualmente el estado de las fotos con el estándar de mercado.
                 3. Devuelve solo la tasación escueta:
                    - Valor de mercado estimado (rango €).
